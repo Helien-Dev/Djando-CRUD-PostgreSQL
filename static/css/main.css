@@ -2,6 +2,7 @@
     color-scheme: light dark;
     --primary-color: #424242;
     --secundary-color: #FEFFEA;
+    --third-color: #C9C9C9;
     --accent-color: #FCFC62;
 }
 
@@ -24,7 +25,7 @@ body {
     align-content: center;
     justify-content: center;
     justify-items: center;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 380px);
     gap: 50px;
 }
 

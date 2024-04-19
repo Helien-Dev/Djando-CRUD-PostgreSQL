@@ -1,65 +1,86 @@
-{% extends 'store/Main.html' %}
-{% load static %}
-{% block content %}
+{% extends 'store/Main.html' %} {% load static %} {% block content %}
 <section class="py-16">
   <div class="grid-product max-w-[1300px] m-auto w-full">
-    <div
-      class="bg-[var(--secundary-color)] rounded-2xl text-center "
-    >
-      <div>
-        <img
-          class="img_grid w-full"
-          src="{% static 'images/placeholder.png' %}"
-          alt=""
-        />
-        <div>
-          <h3 class="font-bold text-black">Product:</h3>
-          <hr />
-          <button>Add to cart</button>
-          <a href="">View</a>
-          <h3>$20</h3>
+    <div class="bg-[var(--secundary-color)] rounded-2xl">
+      <img
+        class="img_grid w-full"
+        src="{% static 'images/placeholder.png' %}"
+        alt=""
+      />
+      <div class="py-3 p-3">
+        <h3 class="font-bold text-black text-sm">Product:</h3>
+        <hr class="py-2" />
+        <div class="flex justify-between">
+          <button class="font-bold bg-slate-500 my-2 px-4 py-2 rounded-xl">
+            Add to cart
+          </button>
+          <a
+            class="bg-[var(--accent-color)] font-bold text-black rounded-xl my-2 px-5 py-2 text-center"
+            href=""
+            >View</a
+          >
         </div>
+        <h3
+          class="text-2xl text-black font-bold flex justify-end items-center px-5"
+        >
+          $20
+        </h3>
       </div>
     </div>
 
-    <div
-      class="bg-[var(--secundary-color)] rounded-2xl text-center "
-    >
-      <div>
-        <img
-          class="img_grid w-full"
-          src="{% static 'images/placeholder.png' %}"
-          alt=""
-        />
-        <div>
-          <h3 class="font-bold text-black">Product:</h3>
-          <hr />
-          <button>Add to cart</button>
-          <a href="">View</a>
-          <h3>$20</h3>
+    <div class="bg-[var(--secundary-color)] rounded-2xl">
+      <img
+        class="img_grid w-full"
+        src="{% static 'images/placeholder.png' %}"
+        alt=""
+      />
+      <div class="py-3 p-3">
+        <h3 class="font-bold text-black text-sm">Product:</h3>
+        <hr class="py-2" />
+        <div class="flex justify-between">
+          <button class="font-bold bg-slate-500 my-2 px-4 py-2 rounded-xl">
+            Add to cart
+          </button>
+          <a
+            class="bg-[var(--accent-color)] font-bold text-black rounded-xl my-2 px-5 py-2 text-center"
+            href=""
+            >View</a
+          >
         </div>
+        <h3
+          class="text-2xl text-black font-bold flex justify-end items-center px-5"
+        >
+          $20
+        </h3>
       </div>
     </div>
 
-    <div
-      class="bg-[var(--secundary-color)] rounded-2xl text-center "
-    >
-      <div>
-        <img
-          class="img_grid w-full"
-          src="{% static 'images/placeholder.png' %}"
-          alt=""
-        />
-        <div>
-          <h3 class="font-bold text-black">Product:</h3>
-          <hr />
-          <button>Add to cart</button>
-          <a href="">View</a>
-          <h3>$20</h3>
+    <div class="bg-[var(--secundary-color)] rounded-2xl">
+      <img
+        class="img_grid w-full"
+        src="{% static 'images/placeholder.png' %}"
+        alt=""
+      />
+      <div class="py-3 p-3">
+        <h3 class="font-bold text-black text-sm">Product:</h3>
+        <hr class="py-2" />
+        <div class="flex justify-between">
+          <button class="font-bold bg-slate-500 my-2 px-4 py-2 rounded-xl">
+            Add to cart
+          </button>
+          <a
+            class="bg-[var(--accent-color)] font-bold text-black rounded-xl my-2 px-5 py-2 text-center"
+            href=""
+            >View</a
+          >
         </div>
+        <h3
+          class="text-2xl text-black font-bold flex justify-end items-center px-5"
+        >
+          $20
+        </h3>
       </div>
     </div>
-
   </div>
 </section>
 {% endblock %}
