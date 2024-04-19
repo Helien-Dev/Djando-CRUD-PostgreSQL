@@ -1,11 +1,40 @@
-{% extends "store/Main.html" %}
-{% load static %}
-{% block content %}
+{% extends "store/Main.html" %} {% load static %} {% block content %}
 
-<div>
-    <div>
-        <button>Continue Shopping</button>
+<div class="max-w-[1000px] m-auto w-full">
+  <div class="rounded-xl bg-[var(--secundary-color)] my-8 py-8 items-center">
+    <div class="flex justify-between px-10 text-center text-black font-bold">
+      <h2>Item</h2>
+      <h2>Price</h2>
+      <h2>Quantity</h2>
+      <h2>Total</h2>
     </div>
+    <hr class="bg-black text-black" />
+    <div
+      class="flex justify-between px-10 text-center text-black font-bold py-10 items-center"
+    >
+      <img class="img-size" src="{% static "images/placeholder.png" %}" alt="">
+      <h2>$20</h2>
+      <h2>2</h2>
+      <h2>$32</h2>
+    </div>
+  </div>
+  <div class="rounded-xl bg-[var(--secundary-color)] my-10 px-10">
+    <button class="my-5 py-4 px-5 font-thin rounded-lg bg-slate-500">
+      Continue Shopping
+    </button>
+    <hr />
+    <div
+      class="flex justify-between px-10 py-10 text-center text-black font-bold"
+    >
+      <h2>Items:</h2>
+      <h2>Total:</h2>
+      <button
+        class="my-5 py-4 px-5 font-bold text-black rounded-lg bg-[var(--accent-color)]"
+      >
+        Checkout
+      </button>
+    </div>
+  </div>
 </div>
 
 {% endblock content %}

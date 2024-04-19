@@ -32,3 +32,9 @@ body {
 .img_grid {
     border-radius: 16px 16px 0px 0px;
 }
+
+.img-size {
+    height: 80px;
+    width: 100px;
+    border-radius: 15px;
+}
