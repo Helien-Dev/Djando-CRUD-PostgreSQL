@@ -553,3 +553,15 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.static {
+  position: static;
+}
+
+.block {
+  display: block;
+}
+
+.p-8 {
+  padding: 2rem;
+}
