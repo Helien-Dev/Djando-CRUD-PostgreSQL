@@ -1,0 +1,18 @@
+:root {
+    color-scheme: light dark;
+    --primary-color: #424242;
+    --secundary-color: #FEFFEA;
+    --accent-color: #FCFC62;
+}
+
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: 'Onest Variable', sans-serif;
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
