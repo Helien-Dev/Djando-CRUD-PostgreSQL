@@ -11,8 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "standard": "^17.1.0"
-  }, 
+  },
   "eslintConfig": {
-    "extends" : "standard"
+    "extends": "standard"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }
