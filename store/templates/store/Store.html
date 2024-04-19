@@ -1,6 +1,65 @@
-{% extends "store/Main.html" %}
+{% extends 'store/Main.html' %}
 {% load static %}
-
 {% block content %}
-    
-{% endblock content %}
+<section class="py-16">
+  <div class="grid-product max-w-[1300px] m-auto w-full">
+    <div
+      class="bg-[var(--secundary-color)] rounded-2xl text-center "
+    >
+      <div>
+        <img
+          class="img_grid w-full"
+          src="{% static 'images/placeholder.png' %}"
+          alt=""
+        />
+        <div>
+          <h3 class="font-bold text-black">Product:</h3>
+          <hr />
+          <button>Add to cart</button>
+          <a href="">View</a>
+          <h3>$20</h3>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-[var(--secundary-color)] rounded-2xl text-center "
+    >
+      <div>
+        <img
+          class="img_grid w-full"
+          src="{% static 'images/placeholder.png' %}"
+          alt=""
+        />
+        <div>
+          <h3 class="font-bold text-black">Product:</h3>
+          <hr />
+          <button>Add to cart</button>
+          <a href="">View</a>
+          <h3>$20</h3>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-[var(--secundary-color)] rounded-2xl text-center "
+    >
+      <div>
+        <img
+          class="img_grid w-full"
+          src="{% static 'images/placeholder.png' %}"
+          alt=""
+        />
+        <div>
+          <h3 class="font-bold text-black">Product:</h3>
+          <hr />
+          <button>Add to cart</button>
+          <a href="">View</a>
+          <h3>$20</h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endblock %}

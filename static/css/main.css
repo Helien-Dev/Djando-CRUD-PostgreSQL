@@ -11,8 +11,23 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Onest Variable', sans-serif;
+    background: var(--primary-color);
 }
 
 .accent-color {
     color: var(--accent-color);
+}
+
+.grid-product {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 350px);
+    gap: 50px;
+}
+
+.img_grid {
+    border-radius: 16px 16px 0px 0px;
 }
